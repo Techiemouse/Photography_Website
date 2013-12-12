@@ -1,0 +1,350 @@
+
+@font-face {
+    font-family: 'daliregular';
+    src: url('dali____-webfont.eot');
+    src: url('dali____-webfont.eot?#iefix') format('embedded-opentype'),
+         url('dali____-webfont.woff') format('woff'),
+         url('dali____-webfont.ttf') format('truetype'),
+         url('dali____-webfont.svg#daliregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+background: #fefeff;
+margin:0;
+padding:0;
+
+}
+/*
+ *start with the child elem. block makes it an elem with width and height and not just text
+ *in-lin means just as text
+ */
+
+#allcontainer{
+    
+    width:780px;
+    margin:0 auto;
+}
+#menu{
+    
+    float:right;
+    padding-top: 35px;
+    margin-right:130px;
+    
+}
+#menu ul li a{
+    display: block; 
+    height: 30px;
+   /* background: #fff;
+      width: 125px;
+   */
+    padding-left:15px;
+    padding-right:15px;
+   color: #3C3C3C;
+   font-family: 'daliregular';
+   font-size:19px;
+    text-align: center;
+    text-decoration: none;
+     list-style-type: none;
+}
+
+#menu ul{
+    margin:0;
+    padding:0;
+list-style-type: none;
+}
+#menu ul li {
+    position:relative; 
+    float:left;
+     list-style-type: none;
+}
+#menu ul li:hover ul {
+    display:block;
+   
+}
+
+
+#menu ul li ul{
+  display:none;
+    position:absolute;
+    top:30px;
+    left:0;
+    width:470px;
+    
+    
+}
+#menu ul li ul li a{
+    font-size:17px;
+    font-weight: normal;
+}
+
+
+#wrap3{
+    float:left;
+    width: 780px;
+    margin: 0px auto;
+    
+}
+#photo{
+    
+    
+    overflow: hidden;
+    width: 780px;
+    height: 500px;
+    
+    clear: both;
+}
+.button{
+    
+    width: 32px;
+    height: 32px;
+    float:right;  
+    cursor: pointer;    
+    margin-right:30px;
+  }
+  #next{
+    background-image: url("/image/arrows3.svg");
+    background-position: -32px 0;
+    background-repeat: no-repeat;
+    
+  }
+  #next:hover{
+    background-position: -32px -32px;
+  }
+#prev{
+    background-image: url("/image/arrows3.svg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+#prev:hover{
+    background-position: 0 -32px;
+}
+
+#photo img {
+ display:block;   
+   height:100%;
+    float:left;
+}
+ #myphoto{
+	float:right;
+        margin-right:28px;
+	 
+}
+
+p{
+    
+  color: #3C3C3C;
+
+  
+}
+#contact{
+     width:320px;
+  float:left;
+  
+    
+}
+#contactform{
+  width:320px;
+  float:left;
+  
+}
+
+#contactform input{
+    font-size: 12px;
+    font-family:sans-serif;
+   float:left;
+    clear:left;
+    width:100%;
+    margin-bottom:10px;
+    height: 35px;
+    padding:4px;
+}
+#contactform textarea{
+   float:left;
+   clear:left;
+   width:100%;
+   padding:4px;
+   font-family:sans-serif;
+}
+#sendb {
+  width:80px!important;
+   background-color:#333;
+   color:#fff;
+    border: none;
+    margin-top:5px;
+}
+#me{
+width:320px;
+   float:left;
+}
+
+#group {
+    
+    
+    clear:both;
+    
+}
+.outer{
+        
+    width:120px;
+    height: 500px;
+    float:left;
+    text-decoration:none;    
+    margin-right: 10px;
+    
+}
+.colour{
+    height: 500px;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+    opacity:0;
+    
+}
+#col1{
+    background-image:url("/homeimg/1g.jpg");
+    
+    
+}
+#col2{
+    background-image:url("/homeimg/2g.jpg");
+    
+    
+}
+#col3{
+    background-image:url("/homeimg/3g.jpg");
+    
+    
+}
+#col4{
+    background-image:url("/homeimg/4g.jpg");
+    
+    
+}
+
+#col5{
+    background-image:url("/homeimg/5g.jpg");
+    
+    
+}
+
+#col6{
+    background-image:url("/homeimg/6g.jpg");
+    
+    
+}
+#col1 .colour{
+    background-image:url("/homeimg/1c.jpg");
+    
+    
+}
+#col2 .colour{
+    background-image:url("/homeimg/2c.jpg");
+    
+    
+}
+#col3 .colour{
+    background-image:url("/homeimg/3c.jpg");
+    
+    
+}
+#col4 .colour{
+    background-image:url("/homeimg/4c.jpg");
+    
+    
+}
+
+#col5 .colour{
+    background-image:url("/homeimg/5c.jpg");
+    
+    
+}
+
+#col6 .colour{
+    background-image:url("/homeimg/6c.jpg");
+    
+    
+}
+.categ {
+    
+    
+    position:relative;
+    left:0;
+    top:430px;
+    height:40px;
+    line-height:50px;
+    color:#eee;
+    font-family: 'daliregular';
+    font-size:22px;
+    text-align:center;
+    background-color: #777777;
+    background-color: rgba(0,0,0,0.3);
+   
+}
+#name {
+    
+    background-image:url("silviad.svg");
+    background-repeat: no-repeat;
+    background-position: -5px 15px;
+    float:left;
+    height:92px;
+    width:380px;
+}
+#social{
+    
+     
+    width:115px;
+    height:32px;
+    float:left;
+    margin-top:25px;
+}
+#social a{
+    margin-right: 5px;
+    background-image:url("/image/social.svg");
+    background-repeat: no-repeat;
+}
+#facebook{
+    display:block;
+    float:left;
+    width:32px;
+    height: 32px;
+   background-position: 0 0;
+}
+#facebook:hover{
+  
+    background-position: -32px 0px;
+}
+
+#twitter{
+     display:block;
+     float:left;
+    width:32px;
+    height: 32px;
+    background-position: 0px -32px;
+}
+#twitter:hover{  
+    background-position: -32px -32px;
+}
+#instagram{
+     display:block;
+     float:left;
+    width:32px;
+    height: 32px;
+
+     background-position: -0px -64px;
+}
+#instagram:hover{
+    
+    
+     background-position: -32px -64px;
+}
+
+textarea::-moz-placeholder {
+    font-size: 12px;
+    font-family:sans-serif;
+}
+textarea:-moz-placeholder {
+    font-size: 12px;
+    font-family:sans-serif;
+}

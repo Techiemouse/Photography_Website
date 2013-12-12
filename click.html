@@ -1,0 +1,60 @@
+<html>
+<title>push the buttons</title>
+<head></head>
+<style>
+#heartbeat{
+    
+    margin-left:100px;
+     width:146px;
+    height: 145px;
+background-image:url(/image/heart.svg);
+background-repeat: no-repeat;
+background-position: 0 0;
+}
+#butt{
+
+    width:213px;
+    height: 108px;
+    background-image:url(/image/butt.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+#butt:hover{
+    background-position: 0 -108px;
+    
+}
+</style>
+
+<body>
+<div id="butt"></div>    
+<div id="heartbeat" ></div>
+
+
+<script>
+var elemh=document.getElementById("heartbeat");
+var i = 0;
+    var j=0;
+    var time;
+
+function beat(){
+    i=i-146;
+    elemh.style.backgroundPosition=i;
+    
+    if (i<-500) {
+           return false;
+        }
+        time = setTimeout(beat,500);
+    }
+     document.getElementById('butt').onclick = function(){
+        i=0;
+        beat();
+        
+     }
+    
+
+</script>
+
+</body>
+
+
+</html>
