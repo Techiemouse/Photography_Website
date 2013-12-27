@@ -35,13 +35,13 @@
                 </li>
                 
                 <li>
-                 <a href="abouts">About</a>
+                 <a href="about">About</a>
                  <ul>
                         <li>
-                            <a href="abouts">About Silvia D.</a>
+                            <a href="about">About Silvia D.</a>
                         </li>
                         <li>
-                            <a href="contacts">Contact Silvia D.</a>
+                            <a href="contact">Contact Silvia D.</a>
                         </li>
 			  
                            
